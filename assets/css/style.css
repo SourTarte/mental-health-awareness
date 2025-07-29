@@ -1,0 +1,24 @@
+body {
+    /*padding-top: 70px; /* Height of the header */
+}
+
+.bg-primary {
+    background-color: #007bffc9 !important;
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 77vh;
+}
+
+.card-group {
+    margin-left: 370px;
+    margin-right:370px;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
