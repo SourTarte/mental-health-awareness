@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
 body {
     /*padding-top: 70px; /* Height of the header */
+    font-family : 'Gowun Dodum', sans-serif;
 }
 
 .bg-primary {
