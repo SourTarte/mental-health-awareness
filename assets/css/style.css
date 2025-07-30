@@ -1,8 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
+:root{
+    --shade-1: #775571;
+    --shade-2: #9781A6;
+    --shade-3: #d5c7e4;
+    --shade-4: #CABFD9;
+    --shade-5: #ECE4F2;
+
+    --attention-color: #ff9b92;
+}
+
 body {
     /*padding-top: 70px; /* Height of the header */
+    background-color: var(--shade-5);
     font-family : 'Gowun Dodum', sans-serif;
+}
+
+footer{
+    background-color: var(--shade-3);
+}
+
+
+.btn-primary{
+    background-color: var(--shade-1)!important;
+    border-color: var(--shade-1)!important;
+}
+.btn-secondary{
+    background-color: var(--shade-4)!important;
+    border-color: var(--shade-4)!important;
+}
+.btn-success{
+    background-color: var(--shade-5)!important;
+    border-color: var(--shade-5)!important;
+}
+.btn-info{
+    background-color: var(--shade-3)!important;
+    border-color: var(--shade-3)!important;
+}
+.btn-warning{
+    background-color: var(--attention-color)!important;
+    border-color: var(--attention-color)!important;
+}
+
+
+.navbar{
+    background-color: var(--shade-1)!important;
 }
 
 .carousel img {
@@ -23,5 +65,6 @@ body {
 }
 
 p {
+    color:var(--shade-1);
     margin: 0 25px 0 25px;
 }
