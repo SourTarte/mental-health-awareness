@@ -67,7 +67,7 @@ Lighthouse's accessibility metrics indicated the contrast ratios were poor for c
 
 ---
 ## 📂 Folder Structure
-
+```
 .
 └── mental-health-awareness/
     ├── assets/
@@ -83,6 +83,7 @@ Lighthouse's accessibility metrics indicated the contrast ratios were poor for c
     ├── README.md
     ├── crisis-resources.html
     └── index.html
+```
 
 ---
 ## 📃License
