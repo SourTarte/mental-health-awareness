@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mind a Minute - Your Wellbeing Matters</title>
+
   <!-- Bootstrap CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -16,73 +17,61 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
     <div class="container-fluid">
         <a class="navbar-brand" href="#" id="org-name"><h1>Mind a Minute</h1></a>
-        
         <a class="btn btn-info" id="help-button" href="crisis-resources.html" style="color:rgb(83, 0, 92);">Need Help?</a>
-        <!--<div class="dropdown">
-            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Resources</a></li>
-                <li><a class="dropdown-item" href="#">About</a></li>
-                <li><a class="dropdown-item" href="#">Contact</a></li>
-                <li><a class="dropdown-item" href="crisis-resources.html">Need Help?</a></li>
-            </ul>
-        </div>-->
     </div>
   </nav>
 
   <!-- Image Carousel -->
-  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+      <img class="card-img-top d-block w-100" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Nature 1">
+      <div class="card border-light mb-3">
       
-      <div class="carousel-item active">
-        <img class="card-img-top d-block w-100" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Nature 1">
-        <div class="card border-light mb-3">
-        
-          <div class="card-body">
-            <h5 class="card-title mx-2">You Matter</h5>
-            <p class="card-text mx-2">Take a minute, breathe, and remember to take care of yourself. Everyone walks at a different pace.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img class="card-img-top d-block w-100" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" alt="Nature 1">
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title mx-2">It's Okay to be Not Okay</h5>
-            <p class="card-text mx-2">We all go through tough times. Sometimes it's hard to feel alright with ourselves, and that's very human.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img class="card-img-top d-block w-100" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" alt="Nature 1">
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title mx-2">Everyone's Journey is Their Own</h5>
-            <p class="card-text mx-2">What works for one person might not work for another, and that’s okay. Remember that your path is unique to you.</p>
-          </div>
+        <div class="card-body">
+          <h5 class="card-title mx-2">You Matter</h5>
+          <p class="card-text mx-2">Take a minute, breathe, and remember to take care of yourself. Everyone walks at a different pace.</p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-<!-- Crisis Help Button -->
-  <div class="my-2 d-flex justify-content-center align-items-center" style="height: 5vh;">
-    <a class="btn btn-primary" href="crisis-resources.html" style="color:white;">Need Help Right Now?</a>
+    <div class="carousel-item">
+      <img class="card-img-top d-block w-100" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" alt="Nature 1">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title mx-2">It's Okay to be Not Okay</h5>
+          <p class="card-text mx-2">We all go through tough times. Sometimes it's hard to feel alright with ourselves, and that's very human.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img class="card-img-top d-block w-100" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" alt="Nature 1">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title mx-2">Everyone's Journey is Their Own</h5>
+          <p class="card-text mx-2">What works for one person might not work for another, and that’s okay. Remember that your path is unique to you.</p>
+        </div>
+      </div>
+    </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <!-- Crisis Help Button -->
+<div class="my-2 d-flex justify-content-center align-items-center" style="height: 5vh;">
+  <a class="btn btn-primary" href="crisis-resources.html" style="color:white;">Need Help Right Now?</a>
+</div>
   
-<!-- Welcome Message -->
+  <!-- Welcome Message -->
 <div class="container text-left">
   <div class="row row-cols-1 row-cols-md-1 g-1 mt-3 mx-2">
     <h2>Take a second and breathe, you can't live a Mind a Minute.</h2>
@@ -94,7 +83,7 @@
   <div class="col">
     <p>If you're looking for where you might get started on your mental health journey, have a look at the follow handy ideas. Each comes along with a suggestion for additional information such as helpful apps and additional materials. Be aware that not everything is going to be the right for everyone; it's about finding what works best for you.</p>
   </div>
- </div>
+</div>
  
   <!-- Information Cards -->
 <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -143,7 +132,7 @@
   <!-- Footer -->
 <footer>
   <div class="container text-center my-4">
-    <p class="text-muted">© 2023 Mind a Minute. All rights reserved.</p>
+    <p class="text-muted">© 2025 Mind a Minute. All rights reserved.</p>
     <p class="text-muted">Contact via email at: <a href="mailto:dioncmcmillan@gmail.com">dioncmcmillan@gmail.com</a></p>
   </div>
 </footer>
