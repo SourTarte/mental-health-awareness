@@ -14,13 +14,12 @@ A responsive and informative website aimed at promoting mental health awareness,
 ## 📌 Table of Contents
 
 
-- [Features](#🌟%20features)
-- [Tech Stack](#🧰%20Tech%20Stack)
-- [Project Planning](#📋%20%Project%20Planning)
-- [Testing](#🧪%20Testing)
-- [Folder Structure](#📂%20Folder%20Structure)
-- [Contributing](#🤝%20Contributing)
-- [License](#📃%20License)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Planning](#-project-planning)
+- [Testing](#-testing)
+- [Folder Structure](#-folder-structure)
+- [License](#-license)
 ---
 ## 🌟 Features
 
